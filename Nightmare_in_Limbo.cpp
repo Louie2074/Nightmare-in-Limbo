@@ -381,7 +381,7 @@ void waitForPlayer(){
 
 //clears the console to make things look prettier
 void clearConsole(){
-	std::cout<< u8"\033[2J\033[1;1H";
+	system("cls");
 }
 
 //asks for an input that corresponds to an action that affects the state of the game
